@@ -1,0 +1,44 @@
+package testers.otdr;
+public class InstDef_OTDR {
+	public static final long PULSE_WIDTH = 1;
+	public static final long PULSE_WIDTH__50_NS = 1;
+	public static final long PULSE_WIDTH__100_NS = 2;
+	public static final long PULSE_WIDTH__500_NS = 3;
+	public static final long PULSE_WIDTH__1000_NS = 4;
+	public static final long PULSE_WIDTH__5000_NS = 5;
+	public static final long PULSE_WIDTH__10000_NS = 6;
+	public static final long PULSE_WIDTH__AUTO = 26;
+	public static final long DISTANCE_RANGE = 2;
+	public static final long DISTANCE_RANGE__500_M = 7;
+	public static final long DISTANCE_RANGE__1_KM = 8;
+	public static final long DISTANCE_RANGE__5_KM = 9;
+	public static final long DISTANCE_RANGE__10_KM = 10;
+	public static final long DISTANCE_RANGE__50_KM = 11;
+	public static final long DISTANCE_RANGE__100_KM = 12;
+	public static final long DISTANCE_RANGE__200_KM = 13;
+	public static final long DISTANCE_RANGE__AUTO = 27;
+	public static final long STATUS = 3;
+	public static final long STATUS__IDLE = 22;
+	public static final long STATUS__RUNNING_TEST = 23;
+	public static final long STATUS__ANALYZING = 24;
+	public static final long STATUS__SAVING = 25;
+	public static final long TEST = 4;
+	public static final long TEST__START_TEST = 14;
+	public static final long TEST__STOP_TEST = 15;
+	public static final long FIBER_LENGTH = 5;
+	public static final long TOTAL_LOSS = 7;
+	public static final long OPTICAL_RETURN_LOSS = 8;
+	public static final long WAVELENGTH = 9;
+	public static final long WAVELENGTH__1310_NM = 18;
+	public static final long WAVELENGTH__1550_NM = 19;
+	public static final long WAVELENGTH__1625_NM = 20;
+	public static final long WAVELENGTH__1650_NM = 21;
+	public static final long WAVELENGTH__ALL = 28;
+	public static final long WAVELENGTH__1310_1550_NM = 29;
+	public static final long AVERAGE_TIMES = 10;
+	public static final long CURRENT_AVERAGE = 11;
+	public static final long AVERAGE_TYPE = 12;
+	public static final long AVERAGE_TYPE__ATUO = 30;
+	public static final long AVERAGE_TYPE__MANUAL = 31;
+}
+
